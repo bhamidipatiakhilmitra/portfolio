@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>B Akhilmitra | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>B Akhilmitra</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="BHAMIDIPATI_AKHILMITRA_RESUME.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, I'm <span>B Akhilmitra</span></h2>
+    <p>ECE Graduate | Python & Java Developer | Web Enthusiast</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a final-year ECE student at Raghu Engineering College, passionate about software development, data engineering, and real-world problem solving using technology.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>Water Quality Monitoring Sensor</h3>
+        <p>Designed a microcontroller-based circuit to measure turbidity, pH, and temperature of water for real-time purity checks.</p>
+      </div>
+      <div class="project-card">
+        <h3>To Do List in Python</h3>
+        <p>Console-based app with add/view/complete/delete/save features using Python functions.</p>
+      </div>
+      <div class="project-card">
+        <h3>Wearable Textile Patch Antenna</h3>
+        <p>Developed a graphene-based compact wearable antenna for healthcare & fitness communication. Evaluated safety using SAR metrics.</p>
+      </div>
+      <div class="project-card">
+        <h3>Login Page using HTML, CSS</h3>
+        <p>Stylish login form for basic web login interface built with front-end design only.</p>
+      </div>
+      <div class="project-card">
+        <h3>Amazon Homepage Clone</h3>
+        <p>Static Amazon-like homepage using HTML/CSS with basic JavaScript for interaction (DOM selection & event handling).</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul class="skills-list">
+      <li>Python</li>
+      <li>Java</li>
+      <li>SQL</li>
+      <li>PySpark</li>
+      <li>HTML & CSS</li>
+      <li>NumPy, Pandas</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:bhamidipatiakhilmitra@gmail.com">bhamidipatiakhilmitra@gmail.com</a></p>
+    <p>Phone: +91-9014673226</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/bhamidipatiakhilmitra4717712a7" target="_blank">linkedin.com/in/bhamidipatiakhilmitra4717712a7</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 B Akhilmitra</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+  </script>
+</body>
+</html>
+
